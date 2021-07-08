@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+ion-content.background{
+  --ion-background-color:#0078D7;
+}
+ion-card {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: visible;
+  // margin: 16px 0 24px;
+  position: relative;
+  border-radius: 2rem;
+  // padding-top: 60px;
+  text-align:center;
+
+  .img-wrapper{
+    border-radius: 2rem;
+    border: #ffffff solid 3px;
+    // height:400px;
+    // background-color: white;
+    .ion-img{
+      height:400px
+    }
+  }
+
+}
+.textcard{
+   padding:0rem 1rem 1rem 1rem;
+  text-align:center;
+
+  background-color: #0078d73d;
+  border-radius: 2rem;
+  border: #ffffff solid 1px;
+  margin: -4rem 2rem 2rem 2rem;
+
+	.welcometitle
+	{
+    font-family:'Roboto',sans-serif;
+
+		//font-family:'Roboto-Thin';
+		font-size:1.6rem;
+		color: #ffffff;
+		font-weight:400;
+		line-height: 1.5;
+		text-decoration:none;
+	}
+  .companyname-trav
+	{
+		font-family:'Roboto-regular-400', sans-serif;
+		font-size:1.6rem;
+		color: #0bfcfc;
+		font-weight:600;
+		line-height: 1.5;
+		text-decoration:none;
+	}
+	.companyname-mate
+	{
+		color: #f4fc0b;
+	}
+  .welcomelogin
+	{
+		font-family:'Roboto-regular-400', sans-serif;
+		font-size:0.75rem;
+		color: #ffffff;
+		font-weight:400;
+		line-height: 1.5;
+		text-decoration:none;
+	}
+}
+
+ion-button{
+  .signinbargoogle{
+
+    // --ion-color-light: #f4f5f8;
+    // --ion-color-light-contrast: #000000;
+    padding-top: 0px;
+    // margin-top: -4rem;
+      line-height: 1.2;
+      font-size:0.9rem;
+      font-weight: 100;
+
+       }
+    
+}
+
+  .termslink
+	{
+		font-family: Roboto-Regular;
+		font-size:0.9rem;
+		color: #ffffff;
+		font-weight:400;
+		// line-height: 1.2;
+		text-decoration: underline;
+	}
+
+
+  .ion-color-createacc {
+    --ion-color-base: var(--ion-color-createacc);
+    --ion-color-base-rgb: var(--ion-color-createacc-rgb);
+    --ion-color-contrast: var(--ion-color-createacc-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-createacc-contrast-rgb);
+    --ion-color-shade: var(--ion-color-createacc-shade);
+    --ion-color-tint: var(--ion-color-createacc-tint);
+  }
+ion-button.createacc{
+ border-color: #ffffff;
+}
+.whiteliner
+	{
+		border-top:#ffffff solid 2px;
+	}
+.whiteliner-or
+	{
+		font-family: 'Roboto',sans-serif;
+		// font-size:1.6rem;
+		color: #ffffff;
+		font-weight:600;
+		text-align:center;
+		// text-decoration:none;
+
+		// background-color:#0078D7;
+		width: 4rem;
+		 margin:  auto;
+	}
+
