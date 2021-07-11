@@ -69,22 +69,22 @@ ion-card {
 
 ion-button{
   .signinbargoogle{
-
+    font-weight:600;
     // --ion-color-light: #f4f5f8;
     // --ion-color-light-contrast: #000000;
     padding-top: 0px;
     // margin-top: -4rem;
-      line-height: 1.2;
+      // line-height: 1.2;
       font-size:0.9rem;
-      font-weight: 100;
+      // font-weight: 100;
 
        }
-    
+
 }
 
   .termslink
 	{
-		font-family: Roboto-Regular;
+		// font-family: Roboto-Regular;
 		font-size:0.9rem;
 		color: #ffffff;
 		font-weight:400;
@@ -102,10 +102,19 @@ ion-button{
     --ion-color-tint: var(--ion-color-createacc-tint);
   }
 ion-button.createacc{
- border-color: #ffffff;
+//  border-color: #ffffff;#286191,#286191
+--background:#0D0D0E66;
+ --border-color:white;
+ --border-width: 1px;
+ --color: #ffffff;
+ --border-style:solid;
+ font-weight:600;
+
 }
 .whiteliner
 	{
+    margin: 2rem 1rem 1rem 1rem;
+    // margin: 1rem;
 		border-top:#ffffff solid 2px;
 	}
 .whiteliner-or
@@ -116,9 +125,9 @@ ion-button.createacc{
 		font-weight:600;
 		text-align:center;
 		// text-decoration:none;
-
+    margin: -2rem auto;
 		// background-color:#0078D7;
-		width: 4rem;
-		 margin:  auto;
-	}
+		 width: 3rem;
+     background-color: #0078D7;
 
+	}
