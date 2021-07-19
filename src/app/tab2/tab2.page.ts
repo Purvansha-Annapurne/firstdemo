@@ -9,4 +9,8 @@ export class Tab2Page {
 
   constructor() {}
 
+  signin(){
+    alert('you click me :) thanks');
+  }
+
 }

@@ -24,3 +24,32 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+// / -------------------- hi DOWNLOADED FONTS - CSS  -------------------- /
+
+@font-face {
+    font-family: Domine-Bold;
+    src: url("/assets/font/Domine-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: Roboto-Regular;
+    src: url("/assets/font/Roboto-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: Roboto-Thin;
+    src: url("/assets/font/Roboto-Thin.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: Roboto-Italic;
+    src: url("/assets/font/Roboto-Italic.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: Roboto-BoldItalic;
+    src: url("/assets/font/Roboto-BoldItalic.ttf") format("truetype");
+  }
+
+  //  -------------------- DOWNLOADED FONTS - CSS  --------------------

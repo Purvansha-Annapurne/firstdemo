@@ -103,12 +103,16 @@ ion-button{
   }
 ion-button.createacc{
 //  border-color: #ffffff;#286191,#286191
+// --width: 60px;
+font-family: 'Roboto-Thin' !important;
+  --height: 200px;
 --background:#0D0D0E66;
  --border-color:white;
  --border-width: 1px;
  --color: #ffffff;
  --border-style:solid;
  font-weight:600;
+
 
 }
 .whiteliner
