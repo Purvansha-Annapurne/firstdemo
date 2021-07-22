@@ -28,9 +28,11 @@
 
 			<div class="signup-input-container" id="show_hide_password">
 			<i class="fa fa-key icon-signup"></i>
-			<input class="input-field" type="password" placeholder="Password" name="psw" id="psw">
-				<div class="input-group-addon">
-					<a href="#"><i class="fa fa-eye-slash icon-eyetoggle" aria-hidden="true"></i></a>
+			<input class="input-field"  [type]="password" placeholder="Password" name="psw" id="psw">
+				<div class="input-group-addon" (click)="onClick()">
+          <i class="fa fa-eye-slash icon-eyetoggle" aria-hidden="true" *ngIf="!show"></i>
+          <i class="fa fa-eye icon-eyetoggle" aria-hidden="true" *ngIf="show"></i>
+					<!-- <a href="#"><i class="fa fa-eye-slash icon-eyetoggle" aria-hidden="true"></i></a> -->
 				</div>
 			</div>
 

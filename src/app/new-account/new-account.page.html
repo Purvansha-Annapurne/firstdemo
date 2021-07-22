@@ -21,21 +21,23 @@
 
 			<div class="signup-input-container" id="show_hide_password">
 			<i class="fa fa-key icon-signup"></i>
-			<input class="input-field" type="password" placeholder="Password" name="psw" id="psw">
-				<div class="input-group-addon">
-					<a href="#"><i class="fa fa-eye-slash icon-eyetoggle" aria-hidden="true"></i></a>
+			<input class="input-field"  [type]="password" placeholder="Password" name="psw" id="psw">
+				<div class="input-group-addon" (click)="onClick()">
+          <i class="fa fa-eye-slash icon-eyetoggle" aria-hidden="true" *ngIf="!show"></i>
+          <i class="fa fa-eye icon-eyetoggle" aria-hidden="true" *ngIf="show"></i>
+					<!-- <a href="#"><i class="fa fa-eye-slash icon-eyetoggle" aria-hidden="true"></i></a> -->
 				</div>
 			</div>
 
-			<div class="text-right">
-				<a href="#" class="termslink">Forgot Password?</a>
+			<div class="text-right ion-padding-bottom">
+				<a href="#" class="termslink1">Forgot Password?</a>
 			</div>
 
-			<div class="text-center paddingtop30">
+			<div class="text-center paddingtop30 ion-padding-top">
 				<button class="btn btn-signup" type="submit">Sign In</button>
 			</div>
 		</form>
 	</div>
   <div class="d-flex justify-content-center terms paddingtop20">
-		Don't have an account? &nbsp; <a href="#" class="termslink">Sign Up</a>
+		Don't have an account? &nbsp; <a href="#" class="termslink"><strong>Sign Up</strong></a>
 	</div>

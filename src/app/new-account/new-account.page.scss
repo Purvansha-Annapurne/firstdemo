@@ -104,11 +104,17 @@ ion-button.btn-sign{
 .termslink{
   color: aliceblue;
 }
+.termslink1{
+  color: aliceblue;
+
+}
 
 .signupcontainer
 	{
 		width:90%;
 		margin: auto;
+    // margin-bottom: 0px;
+    // padding-bottom: 0px;
 	}
 
 	.btn-signup{
@@ -211,7 +217,7 @@ ion-button.btn-sign{
 		font-weight: 400;
 		cursor: pointer;
 		position: absolute;
-		right: 5rem;
+		right: 2rem;
 		margin: 1rem 0rem;
 	}
 
