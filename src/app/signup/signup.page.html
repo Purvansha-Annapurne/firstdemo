@@ -18,17 +18,21 @@
 		<form action="#" method="post">
       <div class="signup-input-container">
         <i class="fa fa-user icon-signup"></i>
-        <input class="input-field" type="text" placeholder="Name" name="usrnm">
-        </div>
+        <input class="input-field" type="text"  placeholder="Name" name="usrnm" [(ngModel)]="usrnm">
+
+      </div>
+        <!-- <h1> {{usrnm}}</h1>
+
+<button type="button" (click)="clickme()">Clickme</button> [(ngModel)]="usrmail"-->
 
 			<div class="signup-input-container">
 			<i class="fa fa-envelope icon-signup"></i>
-			<input class="input-field" type="text" placeholder="Email Address" name="email">
+			<input class="input-field" type="text" placeholder="Email Address" name="email" [(ngModel)]="email">
 			</div>
 
 			<div class="signup-input-container" id="show_hide_password">
 			<i class="fa fa-key icon-signup"></i>
-			<input class="input-field"  [type]="password" placeholder="Password" name="psw" id="psw">
+			<input class="input-field"  [type]="password" placeholder="Password" name="psw" id="psw"  [(ngModel)]="pass">
 				<div class="input-group-addon" (click)="onClick()">
           <i class="fa fa-eye-slash icon-eyetoggle" aria-hidden="true" *ngIf="!show"></i>
           <i class="fa fa-eye icon-eyetoggle" aria-hidden="true" *ngIf="show"></i>
@@ -44,7 +48,7 @@
 			</div>
 
 			<div class="text-center paddingtop20">
-				<button class="btn btn-signup" type="submit">Sign Up</button>
+				<button class="btn btn-signup" type="submit" (click)="clickme()">Sign Up</button>
 			</div>
 		</form>
 	</div>
